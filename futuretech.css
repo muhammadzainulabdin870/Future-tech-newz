@@ -1,0 +1,26 @@
+
+.cart-section {
+    padding: 2rem 5%; /* Adds padding on left and right */
+}
+
+.whole-cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds a small gap between carts */
+    justify-content: center; /* Centers carts if they don’t fill the row */
+}
+
+.cart {
+    background-color: white;
+    border-radius: 8px; /* Optional: Gives a rounded look */
+    overflow: hidden; /* Prevents content overflow */
+    width: calc(25% - 20px); /* Adjust width (4 per row with gap) */
+    min-width: 250px; /* Ensures proper resizing on smaller screens */
+}
+
+.img-cart {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}

@@ -1,0 +1,301 @@
+/* --------------------- Responsive For Devices ----------------- */
+
+/* 📱 Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .background-video {
+        height: 50%;
+    }
+    .hero-h1{
+        font-size: 1.5rem;
+    }
+
+    .robooo{
+        
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 5px 3px;
+    }
+    .robot-img{
+        width: 2px;
+    }
+
+    .vr{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        /* justify-content: space-around; */
+        gap: 2rem;
+        padding: 1rem 1rem;
+        text-align: center;
+    
+    }
+    .vr-img{
+        height: 18rem;
+        text-align: center;
+    }
+    .edge{
+        text-align: center;
+        grid-template-columns: 1fr;
+        padding: 2rem 2rem;
+        gap: 1rem;
+    }
+    .foter-list{
+        gap: 5px;
+
+    }
+  
+    
+}
+
+
+
+/* small devices */
+@media (max-width: 690px) {
+
+    .background-video {
+        height: 60%;
+    }
+    .content1{
+        top: 30%;
+    left: 50%;
+    }
+    ul{
+        display: none;
+    }
+    .Icon{
+        display: block;
+        margin-left: 10px;
+        font-size: 30px;
+        color: white;
+    }
+    .logo{
+        padding-left: 14px;
+    }
+    .cta{
+        padding-right: 13px;
+    }
+
+    
+    .hero-h1{
+        font-size: 0.6rem;
+    }
+    .robooo{
+        text-align: center;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 50px 15px;
+        
+    }
+    .robot-img{
+        width: 21rem;
+    }
+
+    .vr{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        /* justify-content: space-around; */
+        gap: 2rem;
+        padding: 1rem 1rem;
+        text-align: center;
+    
+    }
+    .vr-img{
+        height: 18rem;
+        text-align: center;
+    }
+    .edge{
+        text-align: center;
+        grid-template-columns: 1fr;
+        padding: 2rem 2rem;
+        gap: 1rem;
+    }
+    .edge-img{
+        width: 27rem;
+        /* text-align: center; */
+    }
+    .foter-list{
+        gap: 5px;
+        
+    }
+
+}
+
+/* 📱📲 Small Tablets & Large Phones (481px - 768px) */
+@media (max-width: 768px) {
+    /* body {
+        font-size: 16px;
+    } */
+    .background-video {
+        height: 80%;
+    }
+    .content1{
+        top: 37%;
+    left: 50%;
+    }
+   
+    
+    .navbar{
+        padding: 10px 5px;
+    }
+    .logo{
+        font-size: 27px;
+        
+    }
+    ul{
+        gap: 15px;
+    }
+  
+    .hero-h1{
+        font-size: 1rem;
+    }
+    .content1 button {
+        padding: 6px 15px;
+        font-size: 0.8rem;
+    }
+    .robooo{
+        
+        text-align: center;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 50px 15px;
+    }
+
+    .vr{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        /* justify-content: space-around; */
+        gap: 2rem;
+        padding: 1rem 1rem;
+        text-align: center;
+    
+    }
+    .vr-img{
+        height: 18rem;
+        text-align: center;
+    }
+    .edge{
+        text-align: center;
+        grid-template-columns: 1fr;
+        padding: 2rem 2rem;
+        gap: 1rem;
+    }
+    .edge-img{
+        width: 30rem;
+        /* text-align: center; */
+    }
+   
+
+  
+
+}
+
+/* 💻 Tablets (769px - 1024px) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    ul{
+gap: 25px;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .cta{
+padding-right: 10px;
+    }
+    
+    .robooo{
+        text-align: center;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 3rem 7rem;
+    }
+   
+    .hero-h1{
+        font-size: 1.5rem;
+    }
+    .vr{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        /* justify-content: space-around; */
+        gap: 2rem;
+        padding: 1rem 1rem;
+        text-align: center;
+    
+    }
+    .vr-img{
+        height: 18rem;
+        text-align: center;
+    }
+    .edge{
+        text-align: center;
+        grid-template-columns: 1fr;
+        padding: 2rem 2rem;
+        gap: 1rem;
+    }
+    .edge-img{
+        width: 30rem;
+        /* text-align: center; */
+    }
+    
+}
+
+/* 🖥️ Desktops (1025px and above) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 20px;
+    }
+    .robooo{
+        padding: 3rem 7rem;
+    }
+
+    .content{
+        width: 30rem;
+    }
+    .hero-h1{
+        font-size: 2.3rem;
+    }
+    .vr{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        /* justify-content: space-around; */
+        gap: 2rem;
+        padding: 1rem 6rem;
+        /* text-align: center; */
+    
+    }
+    .vr-img{
+        height: 25rem;
+        /* text-align: center; */
+    }
+}
+
+@media(min-width: 1200px){
+    .robooo{
+        padding: 3rem 10rem;
+        gap: 5px;
+    }
+
+    .content{
+        width: 30rem;
+    }
+    .vr-img{
+        height: 30rem;
+        
+    }
+
+    .hero-h1{
+        font-size: 3rem;
+    }
+}
+
+
+
+
